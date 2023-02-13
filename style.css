@@ -1,0 +1,41 @@
+body{
+    width:100%;
+    background: url(6496839.jpg);
+    font-family: 'Pacifico', cursive;;
+    z-index: 1;
+}
+.sheesh{
+    display: block;
+    width: 80%;
+    height: 20%;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+.sheesh h4{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    
+    border-radius: 30px;
+    width: 30%;
+    margin: auto;
+}
+.sheesh ul{
+    list-style-type: none;
+}
+.sheesh ul li img{
+    display: inline;
+    width:200px;  
+    height:185px;
+    border-radius: 20px;
+    margin:15px;
+    box-shadow: 10px 5px 10px;
+    transition: 0.2s;
+}
+.sheesh img:hover{
+    transform: scale(1.15)
+}
+.sheesh li{
+    display: inline-block;
+}
